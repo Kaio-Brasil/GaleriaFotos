@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_buscar"
+        android:title="@string/buscar"
+        android:visible="true"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_limpar"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:title="@string/limpar_busca"
+        android:visible="true"
+        app:showAsAction="never" />
+
+</menu>
